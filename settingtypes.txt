@@ -1,0 +1,2 @@
+#Color Private Messages
+colored_pms (Colors player's private messages) purple
