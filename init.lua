@@ -1,5 +1,9 @@
 local color = minetest.settings:get("colored_pms")
 
+if color == nil then
+	color = "purple"
+end
+
 minetest.unregister_chatcommand("msg")
 
 minetest.register_chatcommand("msg", {
